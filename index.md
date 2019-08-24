@@ -16,7 +16,7 @@ Phew, this is a lot of text!
 Let's model it in a more graphical way – a Domain Story.
 
 ***XXX Domainstory hereXXX***
-<video width="320" height="240" preload autoplay loop>
+<video preload autoplay loop> <!--  width="320" height="240" -->
   <source src="domainstory-leasingninja.mp4" type="video/mp4">
 Your browser does not support the video tag and cannot show the domain story.
 </video>
