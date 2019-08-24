@@ -1,6 +1,6 @@
 # LeasingNinja
 
-The LeasingNinja is an example how to use DDDfootnote:[We assume that you are familiar with the DDD nomenclature. If not, you may consider reading XXXX first.]. The idea is to have one domain that is small enough to be grasped easily and big enough to show the different concepts in a real world end-to-end example. There will be different _incarnations_ (i.e. implementations) of the LeasingNinja to show the pros and cons of different styles and solutions. By always using the same domain the details of the various incarnations can be compared easily. Each incarnation is a combination of styles.
+The LeasingNinja is an example how to use Domain-Driven Design --footnote:[We assume that you are familiar with the DDD nomenclature. If not, you may consider reading XXXX first.]--. The idea is to have one domain that is small enough to be grasped easily and big enough to show the different concepts in a real world end-to-end example. There will be different _incarnations_ (i.e. implementations) of the LeasingNinja to show the pros and cons of different styles and solutions. By always using the same domain the details of the various incarnations can be compared easily. Each incarnation is a combination of styles.
 
 We use different styles in: strategic design, implementation of the domain “layer”, programming language and other properties of programming. Strategic stuff contains big ball of mud versus bounded contexts vs CQRS. Domain layer: domain model vs anemic domain model vs polluted domain model vs event sourced domain model. For programming languages we will start with Java and it is planned to eventually add C#, Typescript, Kotlin, PHP, etc.
 
@@ -16,7 +16,10 @@ Phew, this is a lot of text!
 Let's model it in a more graphical way – a Domain Story.
 
 ***XXX Domainstory hereXXX***
-
+<video width="320" height="240" preload autoplay loop>
+  <source src="domainstory-leasingninja.mp4" type="video/mp4">
+Your browser does not support the video tag and cannot show the domain story.
+</video>
 
 Now that we gained some understanding of the domain, we can see different bounded contexts.
 There is the _Sales_ context and the _Risk Management_ context.
