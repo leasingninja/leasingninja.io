@@ -15,8 +15,7 @@ Imagine Bob wants to reduce his carbon footprint. He likes to change his dirty g
 Phew, this is a lot of text!
 Let's model it in a more graphical way – a Domain Story.
 
-***XXX Domainstory hereXXX***
-<video preload autoplay loop> <!--  width="320" height="240" -->
+<video width="640" height="480" preload autoplay loop>
   <source src="domainstory-leasingninja.mp4" type="video/mp4">
 Your browser does not support the video tag and cannot show the domain story.
 </video>
