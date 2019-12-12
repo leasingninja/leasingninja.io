@@ -28,8 +28,9 @@ Considering this we find two bounded contexts:
 ![The leasing domain with contexts](/domainstory-leasingninja-with-contexts.png)
 
 There is the _Sales_ context and the _Risk Management_ context.
+Putting the domain story now away we can paint the context map:
 
-***XXX Context Map hereXXX***
+![Context map](/contextmap-leasingninja.png)
 
 Also we can see a lot of words of the domain language.
 Verbs like _to sign_ and _to vote_, nouns like _contract_, _monthly rate_ and _credit rating_.
