@@ -61,6 +61,6 @@ Currently there are the following implementations:
 | Language | Architecture                                        | Technology | Sources |
 | -------- | --------------------------------------------------- | ---------- | ------- |
 | Java     | Strategic: Bounded Contexts, Tactical: Domain Model | UI: Spring WebMVC, Persistence: Hibernate | <https://github.com/leasingninja/leasingninja-java-boundedcontexts-domainmodel> | 
-| PHP      | Strategic: Bounded Contexts, Tactical: Domain Model | | https://github.com/leasingninja/leasingninja-php-boundedcontexts-domainmodel |
-| Python   | Strategic: Bounded Contexts, Tactical: Domain Model | | https://github.com/hschwentner/leasingninja-python-boundedcontexts-domainmodel |
-| Swift    | Strategic: Bounded Contexts, Tactical: Domain Model | | https://github.com/leasingninja/leasingninja-swift-boundedcontexts-domainmodel |
+| PHP      | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-php-boundedcontexts-domainmodel> |
+| Python   | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/hschwentner/leasingninja-python-boundedcontexts-domainmodel> |
+| Swift    | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-swift-boundedcontexts-domainmodel> |
