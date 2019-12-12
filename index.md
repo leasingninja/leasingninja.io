@@ -17,10 +17,16 @@ Let's model it in a more graphical way – a Domain Story.
 
 <video width="640" height="480" preload autoplay loop>
   <source src="domainstory-leasingninja.mp4" type="video/mp4">
-Your browser does not support the video tag and cannot show the domain story.
+<p>Your browser does not support the video tag and cannot show the domain story.</p>
 </video>
 
-Now that we gained some understanding of the domain, we can see different bounded contexts.
+Now that we gained some understanding of the domain, let's see if we can find some context boundaries!
+Looking at our domain story we can see interaction between the customer and the salesperson in the left part.
+And there is work the risk manager is doing on her own.
+Considering this we find two bounded contexts:
+
+![The leasing domain with contexts](/domainstory-leasingninja-with-contexts.png)
+
 There is the _Sales_ context and the _Risk Management_ context.
 
 ***XXX Context Map hereXXX***
