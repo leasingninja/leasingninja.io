@@ -1,10 +1,16 @@
 # LeasingNinja
 
-WARNING: The LeasingNinja is currently in a state of early alpha. I still hope it can already be of some help.
+WARNING: The LeasingNinja is currently in a state of early alpha. 
+I still hope it can already be of some help.
 
 The LeasingNinja is an example how to use Domain-Driven Design --footnote:[We assume that you are familiar with the DDD nomenclature. If not, you may consider reading XXXX first.]--. The idea is to have one domain that is small enough to be grasped easily and big enough to show the different concepts in a real world end-to-end example. There will be different _incarnations_ (i.e. implementations) of the LeasingNinja to show the pros and cons of different styles and solutions. By always using the same domain the details of the various incarnations can be compared easily. Each incarnation is a combination of styles.
 
-We use different styles in: strategic design, implementation of the domain “layer”, programming language and other properties of programming. Strategic stuff contains big ball of mud versus bounded contexts vs CQRS. Domain layer: domain model vs anemic domain model vs polluted domain model vs event sourced domain model. For programming languages we will start with Java and it is planned to eventually add C#, Typescript, Kotlin, PHP, etc.
+We use different styles in: strategic design, implementation of the domain “layer”, programming language and other properties of programming.
+Strategic stuff contains big ball of mud versus bounded contexts vs CQRS.
+Domain layer: domain model vs anemic domain model vs polluted domain model vs event sourced domain model.
+For programming languages the Java version is developed the farthest.
+There are also beginning implementations in PHP, Swift, Python.
+Other languages will follow eventually.
 
 All incarnations are accessible for everyone under MIT license on GitHub. Some of the better incarnations are meant to serve as blueprint for new projects. The worse incarnations are examples of “how to _not_ do it”. Be warned to use them as blueprints...
 
@@ -22,6 +28,11 @@ Let's model it in a more graphical way – a Domain Story.
 <p>Your browser does not support the video tag and cannot show the domain story.</p>
 </video>
 
+In this coarse grained domain story we get an overview about what is happening in our domain.
+Also we can see a lot of words of the domain language.
+Verbs like _to sign_ and _to vote_, nouns like _contract_, _monthly rate_ and _credit rating_.
+All of them will become parts of our ubiquitous language.
+
 Now that we gained some understanding of the domain, let's see if we can find some context boundaries!
 Looking at our domain story we can see interaction between the customer and the salesperson in the left part.
 And there is work the risk manager is doing on her own.
@@ -34,6 +45,22 @@ Putting the domain story now away we can paint the context map:
 
 ![Context map](/contextmap-leasingninja.png)
 
-Also we can see a lot of words of the domain language.
-Verbs like _to sign_ and _to vote_, nouns like _contract_, _monthly rate_ and _credit rating_.
-All of them will become parts of our ubiquitous language.
+
+
+## Going deeper into the details
+The next step is to drill deeper into the single bounded contexts.
+Lets start with "Sales":
+
+...
+
+## Finally let's write some code
+The bounded contexts and domain models we have found can be implemented in different ways.
+
+Currently there are the following implementations:
+
+| Language | Architecture                                        | Technology | Sources |
+| -------- | --------------------------------------------------- | ---------- | ------- |
+| Java     | Strategic: Bounded Contexts, Tactical: Domain Model | UI: Spring WebMVC, Persistence: Hibernate | <https://github.com/leasingninja/leasingninja-java-boundedcontexts-domainmodel> | 
+| PHP      | Strategic: Bounded Contexts, Tactical: Domain Model | | https://github.com/leasingninja/leasingninja-php-boundedcontexts-domainmodel |
+| Python   | Strategic: Bounded Contexts, Tactical: Domain Model | | https://github.com/hschwentner/leasingninja-python-boundedcontexts-domainmodel |
+| Swift    | Strategic: Bounded Contexts, Tactical: Domain Model | | https://github.com/leasingninja/leasingninja-swift-boundedcontexts-domainmodel |
