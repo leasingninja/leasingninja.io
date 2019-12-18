@@ -51,6 +51,13 @@ Putting the domain story now away we can paint the context map:
 The next step is to drill deeper into the single bounded contexts.
 Lets start with "Sales":
 
+xxx
+
+In this finer grained domain story we can find elements for our domain model.
+As rule of thumb we take:
+* the work objects and make classes out of them
+* the activities and turn them into methods/commands
+This leads us to the following domain model:
 ...
 
 ## Finally let's write some code
