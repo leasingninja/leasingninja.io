@@ -51,7 +51,7 @@ Putting the domain story now away we can paint the context map:
 The next step is to drill deeper into the single bounded contexts.
 Lets start with "Sales":
 
-xxx
+![Sales](/resources/2 - LeasingNinja Sales (fine grained).png)
 
 In this finer grained domain story we can find elements for our domain model.
 As rule of thumb we take:
