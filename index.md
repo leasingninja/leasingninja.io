@@ -52,7 +52,7 @@ Putting the domain story now away we can paint the context map:
 The next step is to drill deeper into the single bounded contexts.
 Lets start with "Sales":
 
-![Sales story](/resources/2 - LeasingNinja Sales (fine grained).svg)
+![Sales story](resources/2-LeasingNinja-Sales-fine-grained.svg)
 
 In this finer grained domain story we can find elements for our domain model.
 As rule of thumb we take:
@@ -62,7 +62,7 @@ As rule of thumb we take:
 
 This leads us to the following domain model:
 
-![Sales classes](resources/Sales Class Diagram.svg)
+![Sales classes](resources/sales-class-diagram.svg)
 
 ## Finally let's write some code
 
