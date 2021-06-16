@@ -1,4 +1,4 @@
-# ![logo](/leasingninja.png) LeasingNinja
+# ![logo](resources/leasingninja.png) LeasingNinja
 
 WARNING: The LeasingNinja is currently in a state of early alpha. 
 I still hope it can already be of some help.
