@@ -12,7 +12,7 @@ For programming languages the Java version is developed the farthest.
 There are also beginning implementations in PHP, Swift, Python.
 Other languages will follow eventually.
 
-All incarnations are accessible for everyone under MIT license on GitHub. Some of the better incarnations are meant to serve as blueprint for new projects. The worse incarnations are examples of “how to *not* do it”. Be warned to use them as blueprints...
+All incarnations are accessible for everyone under MIT license on GitHub. Some of the better incarnations are meant to serve as blueprint for new projects. The worse incarnations are examples of “how to *not* do it.” Be warned to use them as blueprints...
 
 ## Ok, show me the code!
 
