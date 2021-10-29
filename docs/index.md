@@ -62,9 +62,9 @@ As rule of thumb we take:
 
 This leads us to the following domain model:
 
-![Sales classes](resources/sales-class-diagram.svg)
+![Sales classes](resources/sales-class-diagram.drawio.svg)
 
-## Finally let's write some code
+## Finally let’s write some code
 
 The bounded contexts and domain models we have found can be implemented in different ways.
 
