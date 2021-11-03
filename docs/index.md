@@ -5,7 +5,7 @@ I still hope it can already be of some help.
 
 The LeasingNinja is an example how to use Domain-Driven Design.[^ddd-jargon] The idea is to have one domain that is small enough to be grasped easily and big enough to show the different concepts in a real world end-to-end example. There will be different *incarnations* (i.e. implementations) of the LeasingNinja to show the pros and cons of different styles and solutions. By always using the same domain the details of the various incarnations can be compared easily. Each incarnation is a combination of styles.
 
-[^ddd-jargon]: I assume some familiarity with the DDD jargon. To get that, you may consider reading XXXX first.]
+[^ddd-jargon]: I assume some familiarity with the DDD jargon. To get that, you may consider reading XXXX first.
 
 We use different styles in: strategic design, implementation of the domain “layer,” programming language, and other properties of programming.
 Strategic stuff contains big ball of mud versus bounded contexts vs CQRS.
