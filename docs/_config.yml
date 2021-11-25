@@ -17,6 +17,15 @@ repository               : "leasingninja/leasingninja.io" # GitHub username/repo
 #teaser                   : /images/header_dst.jpg # path of fallback teaser image, e.g. "/images/500x300.png"
 logo                     : /resources/leasingninja.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 footer:
   links:
     - label: "Improve this page"
