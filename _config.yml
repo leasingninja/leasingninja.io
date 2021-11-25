@@ -1,1 +1,36 @@
-title: LeasingNinja
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en"
+title                    : "LeasingNinja"
+title_separator          : "—"
+#subtitle                 : "The DDD Example" # site tagline that appears below site title in masthead
+name                     : "Henning Schwentner with ❤️ from WPS – Workplace Solutions"
+description              : "An example how to implement Domain-Driven Design"
+url                      : "https://leasingninja.io/" 
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "leasingninja/leasingninja.io" # GitHub username/repo-name
+#teaser                   : /images/header_dst.jpg # path of fallback teaser image, e.g. "/images/500x300.png"
+logo                     : /resources/leasingninja.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+
+footer:
+  links:
+    - label: "Improve this page"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/leasingninja/leasingninja.io"
+    - label: "Licensed CC-BY-4.0"
+      icon: "fab fa-creative-commons"
+      url: "http://creativecommons.org/licenses/by/4.0/"
+    - label: "Imprint"
+      icon: "fas fa-balance-scale"
+      url: "https://www.wps.de/impressum/"
+    - label: "Contact"
+      icon: "fas fa-handshake"
+      url: "/contact"
+
+atom_feed:
+  hide: true
