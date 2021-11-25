@@ -39,7 +39,7 @@ footer:
       url: "https://www.wps.de/impressum/"
     - label: "Contact"
       icon: "fas fa-handshake"
-      url: "/contact"
+      url: "https://hschwentner.io"
 
 atom_feed:
   hide: true

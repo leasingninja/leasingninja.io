@@ -1,9 +1,9 @@
-# ![logo](resources/leasingninja.png) LeasingNinja
+# Welcome
 
-WARNING: The LeasingNinja is currently in a state of early alpha.
+**WARNING:** The LeasingNinja is currently in a state of early alpha.
 I still hope it can already be of some help.
 
-The LeasingNinja is an example how to use Domain-Driven Design.[^ddd-jargon] The idea is to have one domain that is small enough to be grasped easily and big enough to show the different concepts in a real world end-to-end example. There will be different *incarnations* (i.e. implementations) of the LeasingNinja to show the pros and cons of different styles and solutions. By always using the same domain the details of the various incarnations can be compared easily. Each incarnation is a combination of styles.
+You want to know how to apply and implement Domain-Driven Design? You’re looking for a real world example? Great, you’ve found it! The idea of the LeasingNinja is to have one domain that is small enough to be grasped easily and big enough to show the different DDD[^ddd-jargon] concepts in a real world end-to-end example. There will be different *incarnations* (i.e. implementations) of the LeasingNinja to show the pros and cons of different styles and solutions. By always using the same domain the details of the various incarnations can be compared easily. Each incarnation is a combination of styles.
 
 [^ddd-jargon]: I assume some familiarity with the DDD jargon. To get that or for a refresh have a look at Eric Evans’s [*DDD Reference*](https://www.domainlanguage.com/ddd/reference/).
 
