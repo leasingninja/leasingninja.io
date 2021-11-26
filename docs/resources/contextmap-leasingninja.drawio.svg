@@ -1,14 +1,7 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="292px" height="142px" viewBox="-0.5 -0.5 292 142" content="&lt;mxfile&gt;&lt;diagram id=&quot;eRks2P-Kt1qeE_zKEdJI&quot; name=&quot;Page-1&quot;&gt;7VZLb5wwEP41XFc8Aske2V02rdqNolKpydEBL1gxGBnvg/z6jrHNe6Wemh56QTOfx/P8BrC8bXF95KjKDyzF1HLt9Gp5O8t1/eAenhJoFBDYvgIyTlIFOT0Qkw+sQVujJ5LiemQoGKOCVGMwYWWJEzHCEOfsMjY7MjqOWqEMz4A4QXSO/iKpyE0Vdo9/wSTLdWTXHBTI2GqgzlHKLgPIiyxvyxkTSiquW0xl60xb1L39jdMuL45L8ScXXHXhjOhJlxaH36NYJycaUzDcgt6CsrnkROC4Qok8ucB0ActFQUFzQKzfsUhyowjO3rsOQXGbIyvFHhWEysGHPJHOElFDsB06Qb8w765tGWW8je7t984aWqiuL+E54+QDzpBJQxrG7MTbLHMhgBeu74XwgFbIhzSoVxljGcWoIvUqYUV7kNSt6f6osgRxlKfvbgaZtmF0l3Tvz5gLfL05DqcbMuwGZgUWHILYZjE0LfRaeFq99BxzDHPyAb8eNIY0rbPOcT96EPT0l5ngzZjw42v8zXIDCkE2bxykTEqH8Cl8jA7R08//JPkcknQvD82S9V9kyd2MJXMWlGkoX7GglazE48lDibx5AcVere99A7y2QNADO1mq3WnNUHvGnEDesrUKvBLxMpBfB3LvRyrGzefQLznxM0511H+IizidfesmTITxmsz6F4VAPMPm+7bM1wEh/QU+GoxjigQ5j5NYIqmO8MwIpNetgxOM18ENJjxXyetbw2/hxFH3d9FMdONIlTxzBGxHzcCskgb17YSncR7uJhuoHPb72LV0aUVB7X8XlHn/y+VFvwE=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="292px" height="142px" viewBox="-0.5 -0.5 292 142" content="&lt;mxfile&gt;&lt;diagram id=&quot;eRks2P-Kt1qeE_zKEdJI&quot; name=&quot;Page-1&quot;&gt;7VZLj5swEP41OTbikbDhmM1jW7VZrZZK3T2tHJiAtQYjx4Swv75jsHmEROqpVaterJnP43n5G8PEXaXnB0HyZMcjYBPHis4Tdz1xnLl3h6sCqgbwrHkDxIJGDWR3QEA/QIOWRgsawXFgKDlnkuZDMORZBqEcYEQIXg7NDpwNo+YkhhEQhISN0R80kompwurwz0DjREd2zEZKjK0GjgmJeNmD3M3EXQnOZSOl5xUw1TrTlubc9sZum5eATP7KAac5cCKs0KUFy2+bQCcnK1MwnsLeonJfJlRCkJNQ7ZR4u4glMmWo2Sge30GGiVGk4O9th7C4+wPP5JaklKmLX4pQOQvlEYOtSYH9AtEeW3HGRR3d3W5tH1vYHL+GJ1zQD9wjJg1lGPBC1FkmUiIvnLm7xAVboZayLKfKKKVIBzENeVrDJM/f8mLPaFirB8rgWEuyXu167fI2SX96hrhgRLzNLPswi8jBt/yFC+DPwPf2MPN9Jwr3tuVOpTyY9HR39Z2dQEg437xGuyUHzhTwFKSo0MQMlKaTHidXq2XHTdswLunxcqExoschbh13lEFBs+Y6g9wRg56/BF8njscwyP1eoBQrabd8XD5sdpvH7//J9XeRq32sNLv838iu2YhdY/Zk0VI96ahlPIMhY7BEUb2gYk39u7kBXmvA64C1KtVqtaqvPYGgmLciTwOeqXzpya89ufOjFOPmz9A2LMQJIh31H+AwRKNv8gWDkRamou5hkkTEYL7D13neI/L8Co8NJoARSU/DJK6RW0d44hTTa8fI9oZj5HgX89Ekr0/1v9kXjtq/oOpCN46akkeOcEpI1TPLlcHxdsKXcRazi8ltHHZz3Lb02mij2v3WNObdr6G7+Qk=&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs>
         <style type="text/css">
-            /* latin */
-@font-face {
-  font-family: 'Architects Daughter';
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/architectsdaughter/v11/KtkxAKiDZI_td1Lkx62xHZHDtgO_Y-bvTYlg4-7jA-U.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+            @font-face {font-family: "Architects Daughter";src: url("https://www.fontmirror.com/app_public/files/t/1/ArchitectsDaughter-Regular_401f4daf90983ee94e96be4992dcb103.ttf")}
         </style>
     </defs>
     <g>
