@@ -63,7 +63,7 @@ Considering this we find two bounded contexts:
 There is the “Sales” context and the “Risk Management” context.
 We extract them from the domain story to draw the context map:
 
-![Context map](resources/contextmap-leasingninja.png)
+![Context map](/resources/contextmap-leasingninja.drawio.svg)
 
 ## Going Deeper Into the Details
 
