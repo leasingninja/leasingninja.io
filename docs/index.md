@@ -1,5 +1,6 @@
 ---
 title: "LeasingNinja"
+layout: splash
 ---
 
 You want to know how to apply and implement Domain-Driven Design? You’re looking for a real world example? Great, you’ve found it! The idea of the LeasingNinja is to have one domain that is small enough to be grasped easily and big enough to show the different DDD[^ddd-jargon] concepts in a real world end-to-end example.
