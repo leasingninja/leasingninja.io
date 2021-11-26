@@ -2,7 +2,7 @@
 title: "LeasingNinja"
 layout: splash
 header:
-  overlay_image: /resources/autumns-leaves.jpeg
+  overlay_image: /resources/autumn-leaves.jpeg
 ---
 
 You want to know how to apply and implement Domain-Driven Design? You’re looking for a real world example? Great, you’ve found it! The idea of the LeasingNinja is to have one domain that is small enough to be grasped easily and big enough to show the different DDD[^ddd-jargon] concepts in a real world end-to-end example.
@@ -29,7 +29,13 @@ Not so fast young padawan! The first D in DDD stands for Domain and one importan
 
 ## So, What Is the Domain in our Example?
 
-Imagine Bob wants to reduce his carbon footprint. He likes to change his dirty gas-powered car for a clean new electric car. Unfortunately he doesn’t have a lot of money. But the salesperson at the car dealer says: “No problem: we buy the car for you and rent it to you for a monthly rate (installment).” This is called *leasing*. “Great,” says Bob, “How much will it cost me per month?” The salesperson calculates the monthly rate. Bob signs the contract and the salesperson gives the contract into the risk department. There a risk manager looks at Bob’s credit rating and decides that it is good enough. So he votes the contract with “yes.” Only now the contract becomes legally valid. He informs the salesperson and she gives the keys to Bob.
+Imagine Bob wants to reduce his carbon footprint. He likes to change his dirty gas-powered car for a clean new electric car. Unfortunately he doesn’t have a lot of money. But he goes to a car dealer anyway.
+
+**Salesperson:** “No problem: we buy the car for you and rent it to you for a monthly rate (installment).” This is called *leasing*.
+
+**Bob:** “Great, how much will it cost me per month?”
+
+The salesperson calculates the monthly rate. Bob signs the contract and the salesperson gives the contract into the risk department. Then a risk manager looks at Bob’s credit rating and decides that it is good enough. So he votes the contract with “yes.” Only now the contract becomes legally valid. He informs the salesperson and she gives the keys to Bob.
 
 Phew, this is a lot of text!
 Let's model it in a more graphical way—a Domain Story.
@@ -41,7 +47,10 @@ Let's model it in a more graphical way—a Domain Story.
 
 In this coarse-grained domain story we get an overview about what is happening in our domain.
 Also we can see a lot of words of the domain language.
-Verbs like “to sign” and “to vote,” nouns like “contract,” “monthly rate,” and “credit rating.”
+
+- Verbs like “to sign” and “to vote”
+- Nouns like “contract,” “monthly rate,” and “credit rating”
+
 All of them will become parts of our ubiquitous language.
 
 Now that we gained some understanding of the domain, let's see if we can find some context boundaries!
