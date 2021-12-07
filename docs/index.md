@@ -84,8 +84,35 @@ This leads us to the following domain model:
 
 ## Finally Let’s Write Some Code
 
-The bounded contexts and domain models we have found can be implemented in different ways.
+Now we have a nicely designed software system made of object-oriented domain models in bounded contexts.
+The next step is to implement them.
+That can (and has been) done in different languages:
 
+| Language | Sources |
+| -------- | ------- |
+| Java     | <https://github.com/leasingninja/leasingninja-java-boundedcontexts-domainmodel> |
+| PHP      | <https://github.com/leasingninja/leasingninja-php-boundedcontexts-domainmodel> |
+| Python   | <https://github.com/leasingninja/leasingninja-python-boundedcontexts-domainmodel> |
+| Swift    | <https://github.com/leasingninja/leasingninja-swift-boundedcontexts-domainmodel> |
+| C#       | <https://github.com/leasingninja/leasingninja-csharp-boundedcontexts-domainmodel> |
+
+## Functional Variant
+
+## Simpler Architectural Styles
+
+So far, we looked at how to build a nice domain-driven architecture.
+In real life there’s not always the time or the knowledge to build that.
+To compare, let’s look at simpler (not to say uglier) styles:
+
+| Language | Architecture                                        | Sources |
+| -------- | --------------------------------------------------- | ------- |
+| Java     | Strategic: Big Ball of Mud, Tactical: Anemic Domain Model | <https://github.com/leasingninja/leasingninja-java-bigballofmud-anemicdomainmodel> |
+
+## What About Different Technologies?
+
+## Overview
+
+To see an overview of all the different ways we can implement this same domain, take a look at the following table.
 Currently there are the following incarnations:
 
 | Language | Architecture                                        | Technology | Sources |
