@@ -8,6 +8,6 @@ services:
     environment:
       - JEKYLL_ENV=development
     volumes:
-      - ./docs/:/srv/jekyll
+      - ./:/srv/jekyll
     ports:
       - 4000:4000
