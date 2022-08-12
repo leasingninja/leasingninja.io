@@ -3,7 +3,7 @@ version: "3.9"
 services:
   site:
     build: .
-    image: leasingninja.io/jekyll:latest
+    image: leasingninja/leasingninja.io:latest
     command: bundle exec jekyll serve --trace --host 0.0.0.0 --watch --incremental
     environment:
       - JEKYLL_ENV=development
