@@ -12,6 +12,7 @@ You want to know how to apply and implement Domain-Driven Design? You’re looki
 
 **WARNING:** The LeasingNinja is currently in a state of early alpha.
 I still hope it can already be of some help.
+{: .notice--danger}
 
 There will be different *incarnations* (i.e. implementations) of the LeasingNinja to show the pros and cons of different styles and solutions. By always using the same domain the details of the various incarnations can be compared easily. Each incarnation is a combination of styles.
 
@@ -59,7 +60,7 @@ Looking at our domain story we can see interaction between the customer and the 
 And there is work the risk manager is doing on her own.
 Considering this we find two bounded contexts:
 
-![The leasing domain with contexts](assets/images/domainstory-leasingninja-with-contexts.png)
+![The leasing domain with contexts](/assets/images/domainstory-leasingninja-with-contexts.png)
 
 There is the “Sales” context and the “Risk Management” context.
 We extract them from the domain story to draw the context map:
@@ -71,7 +72,7 @@ We extract them from the domain story to draw the context map:
 The next step is to drill deeper into the single bounded contexts.
 Lets start with “Sales”:
 
-![Sales story](assets/images/2-LeasingNinja-Sales-fine-grained.svg)
+![Sales story](/assets/images/2-leasingninja-sales-fine-grained.svg)
 
 In this finer grained domain story we can find elements for our domain model.
 As rule of thumb we take:
@@ -81,7 +82,7 @@ As rule of thumb we take:
 
 This leads us to the following domain model:
 
-![Sales classes](assets/images/sales-class-diagram.drawio.svg)
+![Sales classes](/assets/images/sales-class-diagram.drawio.svg)
 
 ## Finally Let’s Write Some Code
 
