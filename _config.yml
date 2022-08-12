@@ -26,6 +26,14 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+exclude:
+  - README.md
+  - Dockerfile
+  - docker-compose.yml
+
+include:
+  - _pages
+
 footer:
   links:
     - label: "Improve this page"
