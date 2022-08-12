@@ -3,7 +3,7 @@ permalink: /
 title: "LeasingNinja"
 layout: splash
 header:
-  overlay_image: /resources/autumn-leaves.jpeg
+  overlay_image: /assets/images/autumn-leaves.jpeg
 ---
 
 You want to know how to apply and implement Domain-Driven Design? You’re looking for a real world example? Great, you’ve found it! The idea of the LeasingNinja is to have one domain that is small enough to be grasped easily and big enough to show the different DDD[^ddd-jargon] concepts in a real world end-to-end example.
@@ -42,7 +42,7 @@ Phew, this is a lot of text!
 Let's model it in a more graphical way—a Domain Story.
 
 <video width="640" height="480" preload autoplay loop>
-  <source src="resources/domainstory-leasingninja.mp4" type="video/mp4"/>
+  <source src="assets/images/domainstory-leasingninja.mp4" type="video/mp4"/>
   <p>Your browser does not support the video tag and cannot show the domain story.</p>
 </video>
 
@@ -59,19 +59,19 @@ Looking at our domain story we can see interaction between the customer and the 
 And there is work the risk manager is doing on her own.
 Considering this we find two bounded contexts:
 
-![The leasing domain with contexts](resources/domainstory-leasingninja-with-contexts.png)
+![The leasing domain with contexts](assets/images/domainstory-leasingninja-with-contexts.png)
 
 There is the “Sales” context and the “Risk Management” context.
 We extract them from the domain story to draw the context map:
 
-![Context map](/resources/contextmap-leasingninja.drawio.svg)
+![Context map](/assets/images/contextmap-leasingninja.drawio.svg)
 
 ## Going Deeper Into the Details
 
 The next step is to drill deeper into the single bounded contexts.
 Lets start with “Sales”:
 
-![Sales story](resources/2-LeasingNinja-Sales-fine-grained.svg)
+![Sales story](assets/images/2-LeasingNinja-Sales-fine-grained.svg)
 
 In this finer grained domain story we can find elements for our domain model.
 As rule of thumb we take:
@@ -81,7 +81,7 @@ As rule of thumb we take:
 
 This leads us to the following domain model:
 
-![Sales classes](resources/sales-class-diagram.drawio.svg)
+![Sales classes](assets/images/sales-class-diagram.drawio.svg)
 
 ## Finally Let’s Write Some Code
 
