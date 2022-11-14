@@ -40,7 +40,7 @@ Imagine Bob wants to reduce his carbon footprint. He likes to change his dirty g
 The salesperson calculates the monthly rate. Bob signs the contract and the salesperson gives the contract into the risk department. Then a risk manager looks at Bob’s credit rating and decides that it is good enough. So he votes the contract with “yes.” Only now the contract becomes legally valid. He informs the salesperson and she gives the keys to Bob.
 
 Phew, this is a lot of text!
-Let's model it in a more graphical way—a Domain Story.
+Let’s model it in a more graphical way—a Domain Story.
 
 <video width="640" height="480" preload autoplay loop>
   <source src="assets/images/domainstory-leasingninja.mp4" type="video/mp4"/>
