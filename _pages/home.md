@@ -43,7 +43,7 @@ Phew, this is a lot of text!
 Let’s model it in a more graphical way—a Domain Story.
 
 <video width="640" height="480" preload autoplay loop>
-  <source src="assets/images/domainstory-leasingninja.mp4" type="video/mp4"/>
+  <source src="/assets/images/domainstory-leasingninja.mp4" type="video/mp4"/>
   <p>Your browser does not support the video tag and cannot show the domain story.</p>
 </video>
 
