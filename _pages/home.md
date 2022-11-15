@@ -72,7 +72,7 @@ We extract them from the domain story to draw the context map:
 The next step is to drill deeper into the single bounded contexts.
 Lets start with “Sales”:
 
-![Sales story](/assets/images/2-leasingninja-sales-fine-grained.svg)
+![Sales story](/assets/images/leasingninja-2-sales-fine-grained.dst.svg)
 
 In this finer grained domain story we can find elements for our domain model.
 As rule of thumb we take:
