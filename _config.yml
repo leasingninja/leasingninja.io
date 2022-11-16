@@ -15,7 +15,7 @@ url                      : "https://leasingninja.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "leasingninja/leasingninja.io" # GitHub username/repo-name
 #teaser                   : /images/header_dst.jpg # path of fallback teaser image, e.g. "/images/500x300.png"
-logo                     : /assets/images/leasingninja.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/images/logo-leasingninja.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 
 # Plugins (previously gems:)
 plugins:

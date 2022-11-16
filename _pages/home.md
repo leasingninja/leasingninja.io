@@ -72,7 +72,7 @@ We extract them from the domain story to draw the context map:
 The next step is to drill deeper into the single bounded contexts.
 Lets start with “Sales”:
 
-![Sales story](/assets/images/leasingninja-2-sales-fine-grained.dst.svg)
+![Sales story](/assets/images/domainstory-leasingninja-2-sales-fine-grained.dst.svg)
 
 In this finer grained domain story we can find elements for our domain model.
 As rule of thumb we take:
@@ -82,7 +82,7 @@ As rule of thumb we take:
 
 This leads us to the following domain model:
 
-![Sales classes](/assets/images/sales-class-diagram.drawio.svg)
+![Sales classes](/assets/images/classdiagram-sales.drawio.svg)
 
 ## Finally Let’s Write Some Code
 
