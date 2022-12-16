@@ -97,6 +97,8 @@ That can (and has been) done in different languages:
 | Python   | <https://github.com/leasingninja/leasingninja-python-boundedcontexts-domainmodel> |
 | Swift    | <https://github.com/leasingninja/leasingninja-swift-boundedcontexts-domainmodel> |
 | C#       | <https://github.com/leasingninja/leasingninja-csharp-boundedcontexts-domainmodel> |
+| Ruby     | <https://github.com/leasingninja/leasingninja-ruby-boundedcontexts-domainmodel> |
+| Kotlin   | <https://github.com/leasingninja/leasingninja-kotlin-boundedcontexts-domainmodel> |
 
 ## Functional Variant
 
@@ -120,7 +122,10 @@ Currently there are the following incarnations:
 | Language | Architecture                                        | Technology | Sources |
 | -------- | --------------------------------------------------- | ---------- | ------- |
 | Java     | Strategic: Bounded Contexts, Tactical: Domain Model | UI: Spring WebMVC, Persistence: Hibernate | <https://github.com/leasingninja/leasingninja-java-boundedcontexts-domainmodel> |
+| Java     | Strategic: Big Ball of Mud, Tactical: Anemic Domain Model | | <https://github.com/leasingninja/leasingninja-java-bigballofmud-anemicdomainmodel> |
 | PHP      | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-php-boundedcontexts-domainmodel> |
 | Python   | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-python-boundedcontexts-domainmodel> |
 | Swift    | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-swift-boundedcontexts-domainmodel> |
 | C#       | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-csharp-boundedcontexts-domainmodel> |
+| Kotlin   | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-kotlin-boundedcontexts-domainmodel> |
+| Ruby     | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-ruby-boundedcontexts-domainmodel> |
