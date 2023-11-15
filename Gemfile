@@ -2,9 +2,9 @@
 
 source "https://rubygems.org"
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
 
-gem "jekyll", "~> 4.2"
+gem "jekyll", "~> 4.3"
 gem "jekyll-include-cache", group: :jekyll_plugins
-gem "jemoji", "~> 0.12.0", group: :jekyll_plugins
+gem "jemoji", "~> 0.13.0", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll", "~> 4.24"
