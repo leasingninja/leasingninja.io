@@ -24,8 +24,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    faraday (2.11.0)
+    faraday (2.12.0)
       faraday-net_http (>= 2.0, < 3.4)
+      json
       logger
     faraday-net_http (3.3.0)
       net-http
@@ -74,6 +75,7 @@ GEM
       gemoji (>= 3, < 5)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
+    json (2.7.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -82,7 +84,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.0)
+    logger (1.6.1)
     mercenary (0.4.0)
     mini_portile2 (2.8.7)
     minimal-mistakes-jekyll (4.26.2)
@@ -137,4 +139,4 @@ DEPENDENCIES
   minimal-mistakes-jekyll (~> 4.26.2)
 
 BUNDLED WITH
-   2.5.18
+   2.5.19
