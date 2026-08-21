@@ -6,24 +6,28 @@ header:
   overlay_image: /assets/images/autumn-leaves.jpeg
 ---
 
+<!-- 
+The LeasingNinja shows what I think is a good architecture — but it also compares that architecture to other possible styles, so you can make an educated choice for your own system.
+-->
+
 You want to know how to apply and implement Domain-Driven Design? You’re looking for a real world example? Great, you’ve found it! The idea of the LeasingNinja is to have one domain that is small enough to be grasped easily and big enough to show the different DDD[^ddd-jargon] concepts in a real world end-to-end example.
 
 [^ddd-jargon]: I assume some familiarity with the DDD jargon. To get that or for a refresh have a look at Eric Evans’s [*DDD Reference*](https://www.domainlanguage.com/ddd/reference/).
 
-**WARNING:** The LeasingNinja is currently in a state of early alpha.
+**WARNING:** The LeasingNinja is currently in a beta state.
 I still hope it can already be of some help.
-{: .notice--danger}
+{: .notice--warning}
 
-There will be different *incarnations* (i.e. implementations) of the LeasingNinja to show the pros and cons of different styles and solutions. By always using the same domain the details of the various incarnations can be compared easily. Each incarnation is a combination of styles.
+There are different *incarnations* (i.e. implementations) of the LeasingNinja, to show the pros and cons of different styles and solutions. The domain always stays the same, so the incarnations can be compared easily — but each one is idiomatic, following the conventions and standard tooling of its particular programming language and tech stack. Each incarnation is a combination of styles.
 
 We use different styles in: strategic design, implementation of the domain “layer,” programming language, and other properties of programming.
 Strategic stuff contains big ball of mud versus bounded contexts vs CQRS.
 Domain layer: domain model vs anemic domain model vs polluted domain model vs event sourced domain model.
 For programming languages the Java version is developed the farthest.
-There are also beginning implementations in PHP, Swift, Python.
-Other languages will follow eventually.
+<!-- There are also beginning implementations in PHP, Swift, Python.
+Other languages will follow eventually. -->
 
-All incarnations are accessible for everyone under MIT license on GitHub. Some of the better incarnations are meant to serve as blueprint for new projects. The worse incarnations are examples of “how to *not* do it.” Be warned to use them as blueprints...
+All incarnations are accessible for everyone under MIT license on GitHub. Some of the better incarnations are meant to serve as blueprint for new projects. The worse incarnations are examples of “how to *not* do it.” Be warned to use those as blueprints...
 
 ## Ok, Show Me the Code!
 
@@ -99,8 +103,17 @@ That can (and has been) done in different languages:
 | C#       | <https://github.com/leasingninja/leasingninja-csharp-boundedcontexts-domainmodel> |
 | Ruby     | <https://github.com/leasingninja/leasingninja-ruby-boundedcontexts-domainmodel> |
 | Kotlin   | <https://github.com/leasingninja/leasingninja-kotlin-boundedcontexts-domainmodel> |
+| TypeScript | <https://github.com/leasingninja/leasingninja-typescript-boundedcontexts-domainmodel> |
 
 ## Functional Variant
+
+The incarnations above all model the domain in an object-oriented way.
+A functional language suggests a different tactical design: instead of one `Contract` whose state changes when it is signed, the states become separate types and the type system forbids the illegal ones.
+This variant is still at an early stage.
+
+| Language | Architecture                                        | Sources |
+| -------- | --------------------------------------------------- | ------- |
+| F#       | Strategic: Bounded Contexts, Tactical: Functional Domain Model | <https://github.com/leasingninja/leasingninja-fsharp-boundedcontexts-domainmodel> |
 
 ## Simpler Architectural Styles
 
@@ -129,3 +142,5 @@ Currently there are the following incarnations:
 | C#       | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-csharp-boundedcontexts-domainmodel> |
 | Kotlin   | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-kotlin-boundedcontexts-domainmodel> |
 | Ruby     | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-ruby-boundedcontexts-domainmodel> |
+| TypeScript | Strategic: Bounded Contexts, Tactical: Domain Model | | <https://github.com/leasingninja/leasingninja-typescript-boundedcontexts-domainmodel> |
+| F#       | Strategic: Bounded Contexts, Tactical: Functional Domain Model | | <https://github.com/leasingninja/leasingninja-fsharp-boundedcontexts-domainmodel> |
